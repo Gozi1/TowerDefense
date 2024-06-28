@@ -1,0 +1,11 @@
+TODO
+
+Make enmey detect player when in range 
+make play move forward if no enemy if enemy make player wakk towards enemy 
+figure out how to differentiate enemies from allies
+make enemy attack player and player attack enemy 
+make enemy die 
+make player die once hp is zero
+make ground reappear if player is close to the end 
+MAKE ENEMIES SPAWN randomly along the path in the same direction 
+Make rooms that the player enters and exits 

@@ -1,0 +1,2 @@
+change player movement  animation to be in angles (Eg if play is moving upwards and left in 
+a less than a 10 degrees angle his animation should be up)

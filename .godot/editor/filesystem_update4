@@ -1,7 +1,7 @@
 res://Scenes/main.tscn
-res://King.gd
 res://King.tscn
-res://Minions.tscn
-res://Enemy.tscn
-res://ForestTile.tscn
-res://Animation.gd
+res://King.gd
+res://Todo.txt
+res://Characters/King.tscn
+res://Notes/Fixs.txt
+res://Scripts/King.gd

@@ -3,17 +3,7 @@ extends CharacterBody2D
 @export var speed = 100
 var last_position
 @onready var _body = $AnimatedSprite2D
-const DIR := {
-	Left = Vector2.LEFT,
-	Right = Vector2.RIGHT,
-	Up = Vector2.UP,
-	Down = Vector2.DOWN,
-	
-	UpLeft = Vector2.UP + Vector2.LEFT,
-	UpRight = Vector2.UP + Vector2.RIGHT,
-	DownLeft = Vector2.DOWN + Vector2.LEFT,
-	DownRight = Vector2.DOWN + Vector2.RIGHT,		
-}
+
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	last_position = global_position
@@ -63,18 +53,3 @@ func get_animation_for(direction: Vector2):
 		else :
 			_body.play("downRight")
 
-	# moving up-left
-	#if direction.x < 0 and direction.y < 0 and abs(direction.x) == abs(direction.y):
-		#_body.play("upLeft")
-#
-	## moving up-right
-	#if direction.x > 0 and direction.y < 0 and abs(direction.x) == abs(direction.y):
-		#_body.play("upRight")
-#
-	## moving down-left
-	#if direction.x < 0 and direction.y > 0 and abs(direction.x) == abs(direction.y):
-		#_body.play("downLeft")
-#
-	## moving down-right
-	#if direction.x > 0 and direction.y > 0 and abs(direction.x) == abs(direction.y):
-		#_body.play("downRight")

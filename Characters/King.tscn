@@ -1,7 +1,7 @@
 [gd_scene load_steps=29 format=3 uid="uid://bj6y80gimd36h"]
 
 [ext_resource type="Texture2D" uid="uid://btudiomjnihja" path="res://Small-8-Direction-Characters_by_AxulArt/Small-8-Direction-Characters_by_AxulArt.png" id="1_erj3l"]
-[ext_resource type="Script" path="res://King.gd" id="1_sssq3"]
+[ext_resource type="Script" path="res://Scripts/King.gd" id="1_sssq3"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_57bb3"]
 radius = 7.0
