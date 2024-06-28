@@ -9,3 +9,9 @@ make player die once hp is zero
 make ground reappear if player is close to the end 
 MAKE ENEMIES SPAWN randomly along the path in the same direction 
 Make rooms that the player enters and exits 
+
+
+Useful Videos :
+	https://youtu.be/r_aT6Y0hrRs?si=LX7Y1jpovt-7NINm
+	
+	https://youtu.be/pZNg4bpi1u4?si=tIO_eJQ-Kv2SyQSV

@@ -5,3 +5,5 @@ res://Todo.txt
 res://Characters/King.tscn
 res://Notes/Fixs.txt
 res://Scripts/King.gd
+res://Characters/areaDetection.gd
+res://Notes/Todo.txt
