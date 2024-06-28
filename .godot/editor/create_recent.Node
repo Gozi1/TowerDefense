@@ -1,0 +1,9 @@
+RemoteTransform2D
+Camera2D
+PathFollow2D
+Path2D
+TileMap
+CollisionShape2D
+AnimatedSprite2D
+CharacterBody2D
+Sprite2D

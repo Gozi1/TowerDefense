@@ -1,0 +1,38 @@
+[gd_scene load_steps=4 format=3 uid="uid://dkwa6o07q2lt0"]
+
+[ext_resource type="PackedScene" uid="uid://bklscie64l784" path="res://ForestTile.tscn" id="1_6t3tm"]
+[ext_resource type="PackedScene" uid="uid://bj6y80gimd36h" path="res://King.tscn" id="2_4i65l"]
+
+[sub_resource type="Curve2D" id="Curve2D_6qohi"]
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, -3, 2, 0, 0, 0, 0, 102, 175, 0, 0, 0, 0, 143, 245, 0, 0, 0, 0, 204, 274, 0, 0, 0, 0, 263, 358, 0, 0, 0, 0, 323, 411, 0, 0, 0, 0, 403, 472, 0, 0, 0, 0, 469, 529, 0, 0, 0, 0, 479, 452, 0, 0, 0, 0, 383, 385, 0, 0, 0, 0, 306, 300, 0, 0, 0, 0, 253, 300, 0, 0, 0, 0, 230, 238, 0, 0, 0, 0, 312, 238, 0, 0, 0, 0, 363, 137, 0, 0, 0, 0, 411, 50, 0, 0, 0, 0, 282, 42, 0, 0, 0, 0, 245, 121, 0, 0, 0, 0, 157, 35, 0, 0, 0, 0, 240, -72, 0, 0, 0, 0, 384, -143, 0, 0, 0, 0, 463, -125, 0, 0, 0, 0, 466, 34, 0, 0, 0, 0, 437, 32, 0, 0, 0, 0, 439, 82, 0, 0, 0, 0, 443, 188, 0, 0, 0, 0, 396, 233, 0, 0, 0, 0, 376, 189, 0, 0, 0, 0, 372, 267)
+}
+point_count = 29
+
+[node name="Main" type="Node2D"]
+
+[node name="TileMap" parent="." instance=ExtResource("1_6t3tm")]
+
+[node name="Path2D" type="Path2D" parent="."]
+curve = SubResource("Curve2D_6qohi")
+
+[node name="PathFollow2D" type="PathFollow2D" parent="Path2D"]
+position = Vector2(-3, 2)
+rotates = false
+loop = false
+
+[node name="King" parent="Path2D/PathFollow2D" instance=ExtResource("2_4i65l")]
+position = Vector2(-0.153184, -3.6023)
+rotation = 0.0
+scale = Vector2(2, 2)
+metadata/_edit_pinned_properties_ = [&"rotation"]
+
+[node name="RemoteTransform2D" type="RemoteTransform2D" parent="Path2D/PathFollow2D/King"]
+remote_path = NodePath("../../../../Camera2D")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(-3.15318, -1.6023)
+scale = Vector2(2, 2)
+zoom = Vector2(3, 3)
+drag_horizontal_enabled = true
+drag_vertical_enabled = true

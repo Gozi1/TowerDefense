@@ -1,0 +1,15 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1719533323
+Enemy.tscn::PackedScene::2570960884229863795::1719530802::0::1::::<><>::uid://btudiomjnihja::::res://Small-8-Direction-Characters_by_AxulArt/Small-8-Direction-Characters_by_AxulArt.png
+ForestTile.tscn::PackedScene::3112114180639429767::1719531514::0::1::::<><>::uid://k1nikn2bio4n::::res://TerrianTiles/ForsestGrassBiomeTiles.png
+icon.svg::CompressedTexture2D::1508071195961197114::1719519789::1719519797::1::::<><>::
+King.gd::GDScript::-1::1719531341::0::1::::<>CharacterBody2D<>::
+King.tscn::PackedScene::3083633448568753133::1719531341::0::1::::<><>::uid://btudiomjnihja::::res://Small-8-Direction-Characters_by_AxulArt/Small-8-Direction-Characters_by_AxulArt.png<>res://King.gd
+Minions.tscn::PackedScene::155532719901155093::1719529756::0::1::::<><>::uid://btudiomjnihja::::res://Small-8-Direction-Characters_by_AxulArt/Small-8-Direction-Characters_by_AxulArt.png
+::res://Scenes/::1719531919
+main.tscn::PackedScene::7906622933083395811::1719531919::0::1::::<><>::uid://bklscie64l784::::res://ForestTile.tscn<>uid://bj6y80gimd36h::::res://King.tscn
+::res://Small-8-Direction-Characters_by_AxulArt/::1719527013
+license.txt::TextFile::-1::1719527013::0::1::::<><>::
+Small-8-Direction-Characters_by_AxulArt.png::CompressedTexture2D::3761493459517619454::1719527013::1719527013::1::::<><>::
+::res://TerrianTiles/::1719530952
+ForsestGrassBiomeTiles.png::CompressedTexture2D::756366411787464463::1719530927::1719530952::1::::<><>::
